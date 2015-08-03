@@ -1,2 +1,2 @@
 # ultimateWebsite
-Northeaster Ultimate Website
+Northeastern Ultimate Website
