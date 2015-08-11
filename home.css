@@ -23,8 +23,8 @@ body {
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   position: relative;
-  margin-top: 80%;
-  left: 50%;
+  margin-top: 63.5%;
+  float: right;
 }
 
 .btn:hover {
