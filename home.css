@@ -1,4 +1,8 @@
 .btn {
+  background-image: url(images/bgi.jpg);
+	height: 70%;
+	width: 100%;
+	background-repeat: no-repeat;
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
