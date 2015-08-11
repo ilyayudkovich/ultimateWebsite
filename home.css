@@ -5,30 +5,25 @@ html {
 
 body {
   background-image: url(images/bgi.jpg);
-  height: 70%;
-  width: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
+  
 }
 
-.btn {
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  -webkit-box-shadow: 0px 1px 3px #666666;
-  -moz-box-shadow: 0px 1px 3px #666666;
-  box-shadow: 0px 1px 3px #666666;
+#buttons {
+  margin-top: 65%;
+  margin-left: 75%;
+  }
+  
+.link {
   font-family: Arial;
   color: #ffffff;
-  font-size: 24px;
-  padding: 10px 20px 10px 20px;
+  font-size: 27px;
   text-decoration: none;
   position: relative;
-  margin-top: 63.5%;
-  float: right;
+  margin-right: 20px;
 }
 
-.btn:hover {
-  text-decoration: none;
-}
+
 
 
