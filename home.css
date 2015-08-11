@@ -11,10 +11,25 @@ body {
 }
 
 #buttons {
-  margin-top: 46%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+/**  margin-top: 46%;
   margin-left: 75%;
+ */ 
   }
-  
+@media(min-width:990px){
+  #buttons{
+	margin-bottom: 80px;
+  }
+}
+
+@media(max-width:989px){
+  #buttons {
+    margin-bottom: 70px;
+	left: 80%;
+  }
+}
 .link {
   font-family: Arial;
   color: #ffffff;
@@ -23,9 +38,6 @@ body {
   position: relative;
   margin-right: 20px;
 }
-
-
-
 
 
 
