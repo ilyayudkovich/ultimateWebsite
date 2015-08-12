@@ -20,21 +20,21 @@ body {
   }
 @media(min-width:990px){
   #buttons{
-	margin-bottom: 80px;
+	margin-bottom: 70px;
 	right: 10%;
   }
 }
 
 @media(max-width:989px){
   #buttons {
-    margin-bottom: 70px;
+    margin-bottom: 25px;
 	left: 80%;
   }
 }
 .link {
   font-family: Arial;
   color: #ffffff;
-  font-size: 35px;
+  font-size: 30px;
   text-decoration: none;
   position: relative;
   margin-right: 35px;
