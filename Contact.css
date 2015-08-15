@@ -7,9 +7,8 @@ html {
 	background-size: 100% 87px;
 	background-color: #ffffff;
 }
-
 body {
-	background-image: url("./images/neuEmblem2.jpg");
+	background-image: url("./images/neuEmblem1.jpg");
 	background-repeat: no-repeat;
 	background-size: 18%;
 	background-position: left center;
@@ -19,11 +18,11 @@ header {
    font-family: "Avantgarde", sans-serif;
    font-size: 36px;
    font-weight: 50;
-   margin-top: 6%;
+   margin-top: 8%;
    text-align: center;
 }
 
-.pp {
+p {
    font-family: "Avantgarde", sans-serif;
    font-size: 18px;
    text-align: center;
@@ -31,14 +30,3 @@ header {
    margin-left: 30%;
    opacity: 1;
 }
-
-#links {
-	color: #ffffff;
-	font-family: Arial;
-	text-decoration: none;
-	font-size: 24px;
-	position: relative;
-	text-align: right;
-	margin-right: 20px;
-}
-
