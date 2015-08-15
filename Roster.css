@@ -7,3 +7,39 @@ html {
 	background-size: 100% 87px;
 	background-color: #ffffff;
 }
+
+#links {
+	color: #ffffff;
+	font-family: Arial;
+	text-decoration: none;
+	font-size: 24px;
+	position: relative;
+	text-align: right;
+	margin-right: 20px;
+}
+
+header {
+   font-family: "Avantgarde", sans-serif;
+   font-size: 36px;
+   font-weight: 50;
+   margin-top: 6%;
+   text-align: center;
+}
+
+table {
+   font-family: "Avantgarde", sans-serif;
+   font-size: 18px;
+   margin-right: 20%;
+   margin-left: 20%;
+}
+
+#captains {
+	text-align: center;
+	margin-left: 20%
+	margin-right: 20%; 
+}
+
+td {
+	padding: 15px;
+	padding-bottom: 20px;
+}
