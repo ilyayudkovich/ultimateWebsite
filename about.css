@@ -1,13 +1,18 @@
 html {
 	height: 100%; 
 	width: 100%;	
-}
-
-body {
 	background-image: url("./images/Banner.jpg");
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: 100% 87px;
+	background-color: #ffffff;
+}
+
+body {
+	background-image: url("./images/neuEmblem2.jpg");
+	background-repeat: no-repeat;
+	background-size: 18%;
+	background-position: left center;
 }
 
 header {
@@ -16,14 +21,16 @@ header {
    font-weight: 50;
    margin-top: 6%;
    text-align: center;
+   opacity: 1;
 }
 
-p {
+.pp {
    font-family: "Avantgarde", sans-serif;
    font-size: 18px;
    text-align: center;
    margin-right: 30%;
    margin-left: 30%;
+   opacity: 1;
 }
 
 #links {
