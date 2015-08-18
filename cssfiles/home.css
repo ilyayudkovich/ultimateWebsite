@@ -14,13 +14,10 @@ body {
   position: absolute;
   bottom: 0;
   right: 0;
-/**  margin-top: 46%;
-  margin-left: 75%;
- */ 
   }
 @media(min-width:990px){
   #buttons{
-	margin-bottom: 68px;
+	margin-bottom: 60px;
 	right: 10%;
   }
 }
