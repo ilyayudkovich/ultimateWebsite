@@ -7,12 +7,6 @@ html {
 	background-size: 100% 87px;
 	background-color: #ffffff;
 }
-body {
-	background-image: url("./images/neuEmblem1.jpg");
-	background-repeat: no-repeat;
-	background-size: 18%;
-	background-position: left center;
-}
 
 header {
    font-family: "Avantgarde", sans-serif;
@@ -44,8 +38,4 @@ p {
 	text-decoration: none;
 	font-size: 24px;
 	margin: 20px;
-}
-
-.link:hover {
-	color: red;
 }

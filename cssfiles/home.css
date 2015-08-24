@@ -36,8 +36,9 @@ body {
   font-size: 30px;
   text-decoration: none;
   position: relative;
-  margin-right: 22px;
-  margin-left: 10px;
+  /*margin-right: 22px;
+  margin-left: 10px;*/
+  margin: 20px;
 }
 
 .link:hover {
