@@ -15,7 +15,7 @@ body {
   bottom: 0;
   right: 0;
   }
-  
+
 @media(min-width:990px){
   #buttons{
 	margin-bottom: 60px;
@@ -38,6 +38,10 @@ body {
   position: relative;
   margin-right: 22px;
   margin-left: 10px;
+}
+
+.link:hover {
+  color: red;
 }
 
 

@@ -53,3 +53,7 @@ header {
 	margin: 20px;
 }
 
+.link:hover {
+	color: red;
+}
+
