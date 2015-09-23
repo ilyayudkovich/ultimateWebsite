@@ -47,16 +47,16 @@ html {
 #contentWrapper {
 	display: inline-block;
 	margin-top: 30px;
-	margin-right: 10%;
-	text-align: center;
+	margin-right: 30%;
+	text-align: left;
 }
 
 header {
-	font: "Avantgarde", sans-serif;
+	font-family: "Avantgarde", sans-serif;
 	text-align: left;
 	margin-top: 3%;
 	margin-bottom: 3%;
-	font-size: 50px;
+	font-size: 45px;
 	margin-left: 20%;
 }
 
@@ -65,6 +65,7 @@ header {
 	height: auto;
 	float: right;
 	margin-top: 10%;
+	margin-left: 5%;
 }
 
 #events {
