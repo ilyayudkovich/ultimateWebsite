@@ -4,16 +4,27 @@ html {
 }
 
 body {
-  background-image: url("../images/bgi.jpg");
+  background-image: url("../images/Team Picture 2015.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+#banner {
+    text-align: center;
+    width: 1920px;
+    left: -8px;
+    height: 100px;
+    background-image: url("../images/Banner.jpg");
+    opacity: 0.5;
+    position: relative;
+    display: block;
+}
+
 #buttonWrapper {
-  position: absolute;
-  bottom: 75px;
-  right: 60px;
-  }
+    position: relative;
+    top: 60px;
+    margin: 0 auto;
+}
 
 @media(min-width:990px){
   #buttons{
@@ -36,6 +47,7 @@ body {
   text-decoration: none;
   position: relative;
   margin: 20px;
+  font-size: 25px;
 }
 
 .link:hover {

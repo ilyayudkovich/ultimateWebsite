@@ -1,35 +1,28 @@
 html {
 	height: 100%; 
 	width: 100%;	
-	background-image: url("../images/wpBanner2.jpg");
+	/*background-image: url("../images/banner.jpg");
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: 100% 87px;
-	background-color: #ffffff;
+	background-color: #ffffff;*/
 }
 
-@media(min-width:990px){
-  #links {
-   	position: relative;
-	text-align: right;
-	margin-right: 20px;
-	margin-top: 25px;
-  }
-  a {
-  	font-size: 25px;
-  }
+#banner {
+    text-align: center;
+    width: 1920px;
+    left: -8px;
+    height: 100px;
+    background-image: url("../images/Banner.jpg");
+    opacity: 0.5;
+    position: relative;
+    display: block;
 }
 
-@media(max-width:989px){
-  #links {
-   	position: relative;
-	text-align: right;
-	margin-right: 20px;
-	margin-top: 25px;
-  }
-  a {
-  	font-size: 16px;
-  }
+#buttonWrapper {
+    position: relative;
+    top: 60px;
+    margin: 0 auto;
 }
 
 .pp {
@@ -60,6 +53,11 @@ html {
 	font-family: Arial;
 	text-decoration: none;
 	margin: 20px;
+    position: relative;
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 25px;
+    font-size: 25px;
 }
 
 .link:hover {
