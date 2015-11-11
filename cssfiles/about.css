@@ -1,11 +1,6 @@
 html {
 	height: 100%; 
 	width: 100%;	
-	/*background-image: url("../images/banner.jpg");
-	background-position: top center;
-	background-repeat: no-repeat;
-	background-size: 100% 87px;
-	background-color: #ffffff;*/
 }
 
 #banner {
@@ -14,7 +9,6 @@ html {
     left: -8px;
     height: 100px;
     background-image: url("../images/Banner.jpg");
-    opacity: 0.5;
     position: relative;
     display: block;
 }
@@ -25,26 +19,37 @@ html {
     margin: 0 auto;
 }
 
+#textWrapper {
+    position: absolute;
+    margin-left: 125px;
+    width: 830px;
+}
+
+.aboutHeader {
+    font-family: "Avantgarde", sans-serif;
+    margin-left: 343px;
+    width: 143px;
+}
+
 .pp {
-   font-family: "Avantgarde", sans-serif;
-   font-size: 18px;
-   text-align: left;
-   margin-right: 60%;
-   margin-left: 17px;
+    font-family: "Avantgarde", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 40px;
 }
 
 #contentWrapper {
 	display: inline-block;
-	margin-top: 30px;
+	margin-top: 50px;
 }
 
 #nuLogo {
-	opacity: .5;
-	width: 30%;
-	height: auto;
-	float: right;
-	margin-right: 17%;
-	margin-top: 10%;
+    position: absolute;
+    display: block;
+    opacity: .95;
+    width: 30%;
+    margin-top: 21px;
+    margin-left: 1130px;
 }
 
 
