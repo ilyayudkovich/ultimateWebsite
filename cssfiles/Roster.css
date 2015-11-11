@@ -19,6 +19,10 @@ html {
     margin: 0 auto;
 }
 
+#active {
+    color: red;
+}
+
 #links {
 	position: relative;
 	text-align: right;

@@ -20,6 +20,10 @@ body {
     display: block;
 }
 
+#active {
+    color: red;
+}
+
 #buttonWrapper {
     position: relative;
     top: 60px;
