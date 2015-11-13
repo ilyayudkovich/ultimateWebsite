@@ -62,7 +62,12 @@ html {
 #contentWrapper {
 	display: inline-block;
 	margin-top: 50px;
+    width: 100%;
 	text-align: left center;
-	margin-left: 11%;
+}
+
+#calendarWrapper {
+    width: 1000px;
+    margin: 0 auto;
 }
 
