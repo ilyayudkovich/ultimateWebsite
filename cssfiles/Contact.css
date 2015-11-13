@@ -23,6 +23,16 @@ html {
     color: red;
 }
 
+#picture {
+    background-image: url("../images/Contact Us photo.jpg");
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    height: 545px;
+    width: 960px;
+    background-repeat: no-repeat;
+}
+
 header {
    font-family: "Avantgarde", sans-serif;
    font-size: 36px;
