@@ -10,25 +10,81 @@ body {
 }
 
 #banner {
-    text-align: center;
-    width: 1920px;
-    left: -8px;
+    text-align: right;
+    width: 100%;
     height: 100px;
-    background-image: url("../images/Banner.jpg");
+    background-image: url("../images/wpBanner2.jpg");
+    background-size: 100%;
+    background-position: left;
+
     opacity: 0.85;
-    position: relative;
-    display: block;
+    
+    background-repeat: no-repeat;
+    
+}
+
+#menu {
+  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  right: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
+
+#menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+#menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#icon-menu:hover {
+  color:red;
+}
+
+#icon-menu{
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  padding-bottom: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#icon-close {
+  cursor: pointer;
+  padding-right: 10px;
+  padding-top: 10px;
 }
 
 #active {
     color: red;
 }
 
-#buttonWrapper {
+/*#buttonWrapper {
     position: relative;
     top: 60px;
     margin: 0 auto;
-}
+}*/
 
 @media(min-width:990px){
   #buttons{
