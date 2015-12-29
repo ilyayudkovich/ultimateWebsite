@@ -5,16 +5,17 @@ html {
 
 #banner {
     text-align: center;
-    width: 1920px;
+    width: 110%;
     left: -8px;
-    height: 100px;
+    height: 90px;
     background-image: url("../images/Banner.jpg");
+    background-size: 70%;
     position: relative;
     display: block;
 }
 
 #buttonWrapper {
-    position: relative;
+    position: left;
     top: 60px;
     margin: 0 auto;
 }
