@@ -4,7 +4,7 @@ html {
 }
 
 #banner {
-    text-align: center;
+    text-align: right;
     width: 100%;
     left: -8px;
     height: 100px;
@@ -24,27 +24,26 @@ html {
 }
 
 #textWrapper {
-    position: absolute;
-    margin-left: 125px;
-    width: 830px;
+    width: 60%;
 }
 
 .aboutHeader {
     font-family: "Avantgarde", sans-serif;
-    margin-left: 343px;
+    margin-left: 30%;
     width: 143px;
 }
 
 .pp {
     font-family: "Avantgarde", sans-serif;
     font-size: 18px;
-    text-align: center;
+    text-align: left;
     margin-top: 40px;
 }
 
 #contentWrapper {
 	display: inline-block;
 	margin-top: 50px;
+    text-align: left;
 }
 
 #nuLogo {
@@ -53,7 +52,7 @@ html {
     opacity: .95;
     width: 30%;
     margin-top: 21px;
-    margin-left: 1130px;
+    margin-left: 61%;
 }
 
 

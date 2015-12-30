@@ -4,18 +4,17 @@ html {
 }
 
 #banner {
-    text-align: center;
-    width: 110%;
+    text-align: right;
+    width: 100%;
     left: -8px;
     height: 90px;
     background-image: url("../images/Banner.jpg");
-    background-size: 70%;
     position: relative;
     display: block;
 }
 
 #buttonWrapper {
-    position: left;
+    position: right;
     top: 60px;
     margin: 0 auto;
 }
@@ -51,7 +50,7 @@ p {
    opacity: 1;
 }
 
-#links {
+#link {
 	position: relative;
 	text-align: right;
 	margin-right: 20px;
